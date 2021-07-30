@@ -1,0 +1,223 @@
+@media only screen and (max-width: 995px){
+    .header-container{
+        display: none;
+    }
+    .desktop-footer{
+        display: none;
+    }
+    .kripto{
+        font-size: 28px;
+    }
+    .container-slider{
+        padding-left: 10px;
+    }
+}
+
+/* Hamburger Menu */
+#menu-toggle {
+    opacity: 0;
+  }
+  #menu-toggle:checked ~ .menu-btn > span {
+    transform: rotate(45deg);
+  }
+  #menu-toggle:checked ~ .menu-btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu-toggle:checked ~ .menu-btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu-toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+  
+  .menu-btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .menu-btn > span,
+  .menu-btn > span::before,
+  .menu-btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #212529;
+    transition-duration: .25s;
+  }
+  .menu-btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu-btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #5b5b5b;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+  }
+  
+  .menu-item {
+    display: block;
+    padding: 12px 24px;
+    color: #ddd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu-item:hover {
+    background-color: #CFD8DC;
+  }
+
+/* Mobile Header */
+.mobile-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  /* min-height: 80px; */
+    padding-bottom: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    background-color: #ffffff;
+}
+.mobile-logo{
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.hamburger-menu{
+    position: relative;
+}
+
+@media only screen and (min-width: 995px){
+  .mobile-header{
+      display: none;
+  }
+  .mobile-footer{
+      display: none;
+  }
+  .fluid-footer{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 995px){
+  .right-slider{
+    display: flex;
+    justify-content: center;
+  }
+  .kripto-para{
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+  }
+  .vector-mobile{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .btc, .eth{
+    display: none;
+  }
+  .three-slider {
+    margin-top: -40px;
+    margin-bottom: 40px;
+  }
+  .container-faster{
+    margin-top: 50px;
+  }
+  .kripto-shop{
+    margin-top: 100px;
+  }
+  .fluid-footer{
+    background-color: #272727;
+    padding: 0;
+  }
+  .mobile-footer{
+    background-color: #5b5b5b;
+    text-align: center;
+    display: block;
+    padding: 20px 0;
+  }
+  .mobile-footer div:nth-child(1){
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .mobile-footer div:nth-child(1) span:nth-child(1){
+    margin-right: 20px;
+  }
+  .mobile-footer span{
+    color: #ddd;
+  }
+  .dip-mobile-footer{
+    background-color: #272727;
+    padding: 40px;
+  }
+  .dip-mobile-footer{
+    background-color: #272727;
+  }
+  .dip-mobile-footer .m-apps{
+    display: inline-flex;
+    margin-top: 20px;
+  }
+  .dip-mobile-footer .m-banks{
+    display: inline-flex;
+    margin-top: 30px;
+  }
+  .last-m-apps{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .container-slider {
+    margin-top: 2rem;
+  }
+  .app-first{
+    justify-content: space-between;
+  }
+  .full-banks{
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .privacy{
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .bitci-tekno{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .cookie-policy{
+    margin-right: 20px;
+  }
+  .user-agreement{
+    display: block;
+  }
+
+}

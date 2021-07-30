@@ -1,0 +1,363 @@
+a:hover {
+  transition: all 500ms ease;
+  text-decoration: none;
+  outline: none;
+  color: #fe5000;
+}
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #818c96;
+  text-decoration: none;
+  outline: none;
+  background-color: transparent;
+}
+.active {
+  color: #fe5000;
+  position: relative;
+}
+.active::before {
+  content: "";
+  position: absolute;
+  top: 27px;
+  left: 34px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #fe5000;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 22.3px 0;
+}
+.header-fluid {
+  border-bottom: 1px solid #f7f7f7;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+
+.header-list {
+  display: inline-flex;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  color: #818c96;
+}
+.header-list:not(.sign-in) {
+  margin-right: 32px;
+}
+.desk-logo {
+  display: inline-flex;
+  margin-right: auto;
+  align-items: center;
+}
+.sign-in {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+  background-color: #1a1a18;
+  vertical-align: baseline;
+  border-radius: 4px;
+  padding: 10px 27px 12px 0px;
+  align-items: center;
+  justify-content: center;
+}
+.sign-in-a {
+  color: #ffffff;
+}
+.sign-in-a svg path {
+  fill: #ffffff;
+}
+.sign-in svg {
+  margin-left: 24px;
+  margin-right: 12px;
+}
+.sign-in-a:hover span {
+  transition: all 500ms ease;
+  color: #fe5000;
+}
+.sign-in-a:hover svg path {
+  transition: all 500ms ease;
+  fill: #fe5000;
+}
+.logo {
+  margin-right: 67px;
+}
+.logo img {
+  width: 154px;
+  height: 35px;
+}
+.header-nav-left {
+  margin-bottom: 0;
+}
+.header-nav-right {
+  margin-bottom: 0;
+}
+.kripto {
+  font-size: 38px;
+}
+.kripto-sub {
+  font-size: 18px;
+  color: #818c96;
+}
+.kripto-para {
+  font-size: 34px;
+  justify-content: center;
+}
+.kripto-sub-para {
+  font-size: 16px;
+  color: #818c96;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.bitci-pay {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #ff7638 0%, #ff5100 100%);
+  vertical-align: baseline;
+  border-radius: 4px;
+  border: none;
+  padding: 15px 38px 15px 38px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 39px;
+}
+.bitci-pay:hover {
+  transition: all 500ms ease;
+  color: #1a1a18;
+}
+.container-slider {
+  margin-top: 4rem;
+ /* padding: 0; */
+}
+.left-slider {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}
+.right-slider {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+.right-slider .mockup {
+  border-radius: 25px;
+  box-shadow: 3px 3px 25px rgb(245, 241, 241), -3px -3px 25px rgb(245, 241, 241);
+}
+.right-slider {
+  position: relative;
+}
+.ellipse {
+  position: absolute;
+  top: 530px;
+  left: 190px;
+  z-index: -1;
+}
+.btc {
+  position: absolute;
+  bottom: 410px;
+  left: -41px;
+  z-index: -1;
+}
+.eth {
+  position: absolute;
+  top: 100px;
+  left: 31px;
+}
+.kripto-pay {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+.kripto-vectors img {
+  width: 124px;
+  display: flex;
+  margin: 0 auto;
+}
+.kripto-vectors .col-4 {
+  margin-top: 50px;
+}
+.kripto-vectors .col-4 p {
+  display: flex;
+  justify-content: center;
+}
+.kripto-vectors .col-4 img {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.vector-write {
+  font-size: 18px;
+}
+.vector-write-sub {
+  font-size: 14px;
+  color: #818c96;
+  text-align: center;
+}
+.container-three {
+  margin-top: 80px;
+}
+.three-slider {
+  display: flex;
+  justify-content: center;
+}
+.container-faster {
+  margin-top: 150px;
+}
+.shop {
+  font-size: 35px;
+}
+.kripto-shop {
+  margin-top: 170px;
+}
+
+.tcb-product-slider .carousel-control {
+  width: 5%;
+}
+.tcb-product-item a {
+  color: #147196;
+}
+.tcb-product-item a:hover {
+  text-decoration: none;
+}
+.tcb-product-item .tcb-hline {
+  margin: 10px 0;
+  height: 1px;
+  background: #ccc;
+}
+@media all and (max-width: 768px) {
+  .tcb-product-item {
+    margin-bottom: 30px;
+  }
+}
+.tcb-product-photo {
+  text-align: center;
+  background: #fff;
+}
+.tcb-product-photo img {
+  width: 260px;
+  height: 88px;
+  display: inline-block;
+}
+.nav-menus {
+  display: flex;
+  justify-content: flex-end;
+}
+.glyphicon {
+  font-size: 20px;
+}
+.small-slider {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 65px;
+  background-color: #5b5b5b;
+  align-content: center;
+  align-items: center;
+  margin-top: 180px;
+}
+.footer-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.footer-ul-2 {
+  list-style-type: none;
+  display: flex;
+  margin-inline-start: auto;
+  margin-top: 10px;
+}
+.footer-li {
+  margin-right: 55px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.footer-li a {
+  color: #ffffff;
+}
+.footer-li a:hover {
+  color: #fe5000;
+}
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.hood {
+  font-size: 26px;
+  color: #272727;
+}
+.info {
+  font-size: 16px;
+  color: #818c96;
+  margin-bottom: 10px;
+}
+.camp-sure {
+  margin-bottom: 40px;
+}
+.apps-footer {
+  height: 370px;
+  background-color: #272727;
+}
+.apps {
+  margin-top: 62.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app {
+  margin-right: 31.1px;
+}
+.opac {
+  opacity: 0.5;
+}
+.opac:hover {
+  transition: all 500ms ease;
+  opacity: 1;
+}
+.dip-footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 82.3px;
+}
+.dip-footer-l {
+  font-size: 16px;
+  color: #ffffff;
+}
+.dip-footer-l:hover {
+  transition: all 1s ease;
+  color: #fe5000;
+}
+.dpl {
+  margin-right: 24px;
+}
+.dip-footer-r {
+  font-size: 16px;
+  color: #707070;
+}
+.dip-footer-r:hover {
+  transition: all 1s ease;
+  color: #fe5000;
+}
